@@ -80,8 +80,6 @@ public class EnviaFoto extends ActionBarActivity {
     }
 
     public int uploadFile(String sourceFileUri) {
-
-
         String fileName = sourceFileUri;
 
         HttpURLConnection conn = null;
